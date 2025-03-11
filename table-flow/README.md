@@ -76,19 +76,25 @@ We welcome contributions to improve this project! Follow these steps:
 Click the Fork button on the top right of this repository.
 
 2️⃣ Clone your forked repository
-
+sh
+Copy
+Edit
 git clone https://github.com/your-username/your-repo-name.git  
-cd your-repo-name 
-
+cd your-repo-name  
 3️⃣ Create a new branch
-
+sh
+Copy
+Edit
 git checkout -b feature-branch  
 4️⃣ Make changes and commit
-
+sh
+Copy
+Edit
 git commit -m "Add some feature"  
-
 5️⃣ Push to the branch
-
+sh
+Copy
+Edit
 git push origin feature-branch  
 6️⃣ Open a pull request
 Go to the original repository and open a Pull Request with your changes.
