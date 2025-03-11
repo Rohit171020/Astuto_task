@@ -34,12 +34,20 @@ npm install
 npm run dev  
 The application will be available at: http://localhost:5173/ (default Vite port).
 
-## Features
+---
+
+✨ Features
 ✅ Fast Development with Vite - Instant HMR & optimized builds
+
 ✅ Dynamic Tables - Sorting, filtering & pagination
+
 ✅ Role-Based Filtering - View-specific table data
+
 ✅ Debounced Search - Optimized search functionality
+
 ✅ Custom Avatars & Badges - Better visualization
+
+
 
 ---
 ## Folder Structure
