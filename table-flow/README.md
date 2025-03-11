@@ -1,12 +1,24 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+table-flow/
+│── node_modules/          # Dependencies
+│── public/                # Public assets
+│── src/                   # Source code
+│   ├── assets/            # Static assets (images, icons, etc.)
+│   ├── components/        # UI components
+│   │   ├── Table.jsx          # Main table component
+│   │   ├── TableFilters.jsx   # Table filtering interface
+│   ├── config/            # Configuration files
+│   │   ├── tableData.json     # Sample table data
+│   │   ├── tableSchema.json   # Table schema definition
+│   ├── hooks/             # Custom hooks
+│   │   ├── useDebounce.js     # Debounced search hook
+│   ├── App.css            # Global styles
+│   ├── App.jsx            # Main React component
+│   ├── index.css          # Main styles
+│   ├── main.jsx           # Entry point of the app
+│── .gitignore             # Git ignore file
+│── eslint.config.js       # ESLint configuration
+│── index.html             # Main HTML file
+│── package-lock.json      # Package lock file
+│── package.json           # Project dependencies
+│── README.md              # Documentation
+│── vite.config.js         # Vite configuration file
