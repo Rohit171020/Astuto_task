@@ -1,48 +1,49 @@
-Table Management App
-A React + Vite-based Table Management App that provides an interactive and efficient tabular data experience. Users can filter, sort, and manage data seamlessly using Material UI and Material React Table.
+# 🚀 Table Management App  
 
-📖 Table of Contents
-Installation
-Usage
-Features
-Folder Structure
-Tech Stack
-Contributing
-License
-Contact
-🛠 Installation
-Follow these steps to clone and set up the project locally.
+A **React + Vite-based Table Management App** that provides an interactive and efficient tabular data experience. Users can **filter, sort, and manage** data seamlessly using **Material UI** and **Material React Table**.  
 
-1️⃣ Clone the Repository
-sh
-Copy
-Edit
+---
+
+## 📖 Table of Contents  
+
+- [Installation](#installation)  
+- [Usage](#usage)  
+- [Features](#features)  
+- [Folder Structure](#folder-structure)  
+- [Tech Stack](#tech-stack)  
+- [Contributing](#contributing)  
+- [License](#license)  
+- [Contact](#contact)  
+
+---
+
+## 🛠 Installation  
+
+Follow these steps to clone and set up the project locally.  
+
+### **1️⃣ Clone the Repository**  
+```sh
 git clone https://github.com/your-username/your-repo-name.git  
 cd your-repo-name  
 2️⃣ Install Dependencies
-sh
-Copy
-Edit
+
 npm install  
+
 3️⃣ Start the Development Server
-sh
-Copy
-Edit
+
 npm run dev  
 The application will be available at: http://localhost:5173/ (default Vite port).
 
 🔥 Features
-✅ Fast Development with Vite – Instant HMR & optimized builds
-✅ Dynamic Tables – Sorting, filtering & pagination
-✅ Role-Based Filtering – View-specific table data
-✅ Debounced Search – Optimized search functionality
-✅ Custom Avatars & Badges – Better visualization
+✅ Fast Development with Vite - Instant HMR & optimized builds
+✅ Dynamic Tables - Sorting, filtering & pagination
+✅ Role-Based Filtering - View-specific table data
+✅ Debounced Search - Optimized search functionality
+✅ Custom Avatars & Badges - Better visualization
 
 📂 Folder Structure
-perl
-Copy
-Edit
-table-management-app/
+
+table-flow/
 │── node_modules/          # Dependencies  
 │── public/                # Public assets  
 │── src/                   # Source code  
@@ -64,38 +65,20 @@ table-management-app/
 │── package.json           # Project dependencies  
 │── README.md              # Documentation  
 │── vite.config.js         # Vite configuration file  
+
 💡 Tech Stack
 Technology	Description
 React + Vite	Fast frontend framework with Vite as a build tool
-Material UI	UI component library for styling
+Material UI (MUI)	UI component library for styling
 Material React Table	Advanced table management and rendering
+
+
 🤝 Contributing
-We welcome contributions to improve this project! Follow these steps:
+Want to contribute? Follow these steps:
 
-1️⃣ Fork the repository
-Click the Fork button on the top right of this repository.
-
-2️⃣ Clone your forked repository
-sh
-Copy
-Edit
-git clone https://github.com/your-username/your-repo-name.git  
-cd your-repo-name  
-3️⃣ Create a new branch
-sh
-Copy
-Edit
-git checkout -b feature-branch  
-4️⃣ Make changes and commit
-sh
-Copy
-Edit
-git commit -m "Add some feature"  
-5️⃣ Push to the branch
-sh
-Copy
-Edit
-git push origin feature-branch  
-6️⃣ Open a pull request
-Go to the original repository and open a Pull Request with your changes.
-
+Fork the repository
+Create a new branch: git checkout -b feature-branch
+Make your changes
+Commit your changes: git commit -m 'Add some feature'
+Push to the branch: git push origin feature-branch
+Open a pull request
