@@ -65,20 +65,16 @@ table-flow/
 │── package.json           # Project dependencies  
 │── README.md              # Documentation  
 │── vite.config.js         # Vite configuration file  
+ 
 
 ## Tech Stack
-Technology	Description
-React + Vite	Fast frontend framework with Vite as a build tool
-Material UI (MUI)	UI component library for styling
-Material React Table	Advanced table management and rendering
 
 
-## Contributing
-Want to contribute? Follow these steps:
+| **Technology**           | **Description**                                       |
+|--------------------------|-------------------------------------------------------|
+| **React + Vite**         | Fast frontend framework with Vite as a build tool    |
+| **Material UI (MUI)**    | UI component library for styling                     |
+| **Material React Table** | Advanced table management and rendering              |
 
-Fork the repository
-Create a new branch: git checkout -b feature-branch
-Make your changes
-Commit your changes: git commit -m 'Add some feature'
-Push to the branch: git push origin feature-branch
-Open a pull request
+
+
