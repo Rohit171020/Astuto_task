@@ -41,6 +41,7 @@ The application will be available at: http://localhost:5173/ (default Vite port)
 ✅ Debounced Search - Optimized search functionality
 ✅ Custom Avatars & Badges - Better visualization
 
+---
 ## Folder Structure
 
 table-flow/
@@ -65,8 +66,8 @@ table-flow/
 │── package.json           # Project dependencies  
 │── README.md              # Documentation  
 │── vite.config.js         # Vite configuration file  
- 
 
+---
 ## Tech Stack
 
 
