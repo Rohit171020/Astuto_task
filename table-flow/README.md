@@ -21,22 +21,23 @@ A **React + Vite-based Table Management App** that provides an interactive and e
 
 Follow these steps to clone and set up the project locally.  
 
-### **1️⃣ Clone the Repository**  
+### 1️⃣ Clone the Repository**  
 
 git clone https://github.com/your-username/your-repo-name.git  
 cd your-repo-name  
-### **2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies
 
 npm install  
 
-### **3️⃣ Start the Development Server
+### 3️⃣ Start the Development Server
 
 npm run dev  
 The application will be available at: http://localhost:5173/ (default Vite port).
 
 ---
 
-✨ Features
+## Features
+
 ✅ Fast Development with Vite - Instant HMR & optimized builds
 
 ✅ Dynamic Tables - Sorting, filtering & pagination
