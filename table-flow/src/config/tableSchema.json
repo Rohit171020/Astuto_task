@@ -1,0 +1,40 @@
+{
+    "columns": [
+      {
+        "accessorKey": "image",
+        "header": "Avatar"
+      },
+      {
+        "accessorKey": "name",
+        "header": "Name",
+        "size": 200
+      },
+      {
+        "accessorKey": "status",
+        "header": "Status",
+        "size": 100
+      },
+      {
+        "accessorKey": "role",
+        "header": "Role",
+        "size": 150
+      },
+      {
+        "accessorKey": "email",
+        "header": "Email",
+        "size": 200
+      },
+      {
+        "accessorKey": "teams",
+        "header": "Teams",
+        "size": 200
+      },
+      {
+        "accessorKey": "age",
+        "header": "Age",
+        "size": 100,
+        "sortingFn": "basic"
+      }
+    ]
+  }
+  

@@ -1,0 +1,105 @@
+{
+    "data": [
+      {
+        "image": "https://i.pravatar.cc/40?img=1",
+        "name": "John Doe",
+        "username": "johndoe",
+        "status": "Working",
+        "role": "Product Manager",
+        "email": "john.doe@company.com",
+        "teams": ["Design", "Product", "Development", "+5"]
+       
+      },
+      {
+        "image": "https://i.pravatar.cc/40?img=2",
+        "name": "Jane Smith",
+        "username": "janesmith",
+        "status": "Working",
+        "role": "Developer",
+        "email": "jane.smith@company.com",
+        "teams": ["Design", "Product", "Development", "+5"]
+       
+      },
+      {
+        "image": "https://i.pravatar.cc/40?img=3",
+        "name": "Michael Brown",
+        "username": "michaelb",
+        "status": "Working",
+        "role": "UX Designer",
+        "email": "michael.brown@company.com",
+        "teams": ["Design", "Product", "Development", "+5"]
+      
+      },
+      {
+        "image": "https://i.pravatar.cc/40?img=4",
+        "name": "Emily Johnson",
+        "username": "emilyj",
+        "status": "Working",
+        "role": "Product Manager",
+        "email": "emily.johnson@company.com",
+        "teams": ["Design", "Product", "Development", "+5"]
+        
+      },
+      {
+        "image": "https://i.pravatar.cc/40?img=5",
+        "name": "David Wilson",
+        "username": "davidw",
+        "status": "Working",
+        "role": "Backend Developer",
+        "email": "david.wilson@company.com",
+        "teams": ["Design", "Product", "Development", "+5"]
+       
+      },
+      {
+        "image": "https://i.pravatar.cc/40?img=6",
+        "name": "Sarah Lee",
+        "username": "sarahlee",
+        "status": "Working",
+        "role": "Frontend Developer",
+        "email": "sarah.lee@company.com",
+        "teams": ["Design", "Product", "Development", "+5"]
+        
+      },
+      {
+        "image": "https://i.pravatar.cc/40?img=7",
+        "name": "James Anderson",
+        "username": "jamesa",
+        "status": "Working",
+        "role": "Product Manager",
+        "email": "james.anderson@company.com",
+        "teams": ["Design", "Product", "Development", "+5"]
+        
+      },
+      {
+        "image": "https://i.pravatar.cc/40?img=8",
+        "name": "Laura Martinez",
+        "username": "lauram",
+        "status": "Working",
+        "role": "UI Designer",
+        "email": "laura.martinez@company.com",
+        "teams": ["Design", "Product", "Development", "+5"]
+       
+      },
+      {
+        "image": "https://i.pravatar.cc/40?img=9",
+        "name": "Robert Thomas",
+        "username": "robertt",
+        "status": "Working",
+        "role": "Developer",
+        "email": "robert.thomas@company.com",
+        "teams":  ["Design", "Product", "Development", "+5"]
+        
+      },
+      {
+        "image": "https://i.pravatar.cc/40?img=10",
+        "name": "Olivia White",
+        "username": "oliviaw",
+        "status": "Working",
+        "role": "Product Manager",
+        "email": "olivia.white@company.com",
+        "teams": ["Design", "Product", "Development", "+5"]
+        
+      }
+    ]
+  }
+  
