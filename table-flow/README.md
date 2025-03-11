@@ -52,7 +52,7 @@ The application will be available at: http://localhost:5173/ (default Vite port)
 
 ---
 ## Folder Structure
-
+```
 table-flow/
 │── node_modules/          # Dependencies  
 │── public/                # Public assets  
@@ -76,7 +76,8 @@ table-flow/
 │── README.md              # Documentation  
 │── vite.config.js         # Vite configuration file  
 
----
+```
+
 ## Tech Stack
 
 
