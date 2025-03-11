@@ -1,91 +1,54 @@
-# **Table Flow**  
+Table Management App
+A React + Vite-based Table Management App that leverages Material UI and Material React Table for an interactive and efficient tabular data experience. Users can filter, sort, and manage table data seamlessly.
 
-A modern **table management application** built with **React**, **Material-UI**, and **Redux** for state management. This application enables users to view and filter tabular data dynamically with an optimized and responsive UI. It includes features like **real-time filtering**, **config-driven table schema**, and an **interactive user interface**.
+📌 Tech Stack
+Technology	Description
+React + Vite	Fast frontend framework with Vite as a build tool
+Material UI (MUI)	UI component library for styling
+Material React Table	Advanced table management and rendering
+📂 Project Structure
+php
+Copy
+Edit
+📂 your-repo-name/  
+├── 📂 src/  
+│   ├── 📂 components/        # Reusable UI components  
+│   │   ├── Table.js          # Main table component  
+│   │   ├── TableFilters.js   # Filters for table  
+│   ├── 📂 config/            # Configuration files  
+│   │   ├── tableSchema.json  # Schema for table columns  
+│   │   ├── tableData.json    # Sample table data  
+│   ├── 📂 hooks/             # Custom React hooks  
+│   │   ├── useDebounce.js    # Debounce hook for optimized search  
+├── 📂 public/                # Static assets  
+├── 📂 vite.config.js         # Vite configuration  
+├── package.json              # Dependencies & scripts  
+├── README.md                 # Documentation  
+🔥 Features
+✅ Fast Development with Vite - Instant HMR & build optimization
+✅ Dynamic Tables - Sorting, filtering & pagination
+✅ Role-Based Filtering - View-specific table data
+✅ Debounced Search - Optimized search functionality
+✅ Custom Avatars & Badges - Better visualization
 
----
+🚀 Getting Started
+Follow these steps to clone and set up the project on your local machine.
 
-## 🚀 **Features**
-
-### ✅ **User Features**
-- 📊 **Interactive Table Display** – View and interact with data in a structured table format.
-- 🔍 **Dynamic Filtering** – Real-time filtering using custom hooks.
-- 📱 **Responsive UI** – Optimized for all screen sizes using **Material-UI**.
-- ⚡ **Optimized Performance** – Debounced search for improved efficiency.
-- ⚙️ **Configurable Schema** – Modify table columns and data dynamically.
-
-### 🛠️ **Admin Features**
-- 🏗 **Table Configuration** – Customize table schema effortlessly.
-- 🗂 **Data Management** – Add, update, and delete table entries.
-- 🔧 **Advanced Filtering** – Enable or disable filter options.
-- 📌 **User-Friendly Dashboard** – Intuitive UI for seamless management.
-
----
-
-## 🏗️ **Technologies Used**
-
-| Technology      | Purpose |
-|---------------|---------|
-| **React** | Frontend framework |
-| **Material-UI (MUI)** | UI component library |
-| **Redux** | State management |
-| **React-Router** | Client-side routing |
-| **Axios** | API handling |
-| **React-Hot-Toast** | Toast notifications |
-| **React Hook Form** | Form validation and management |
-| **MUI Icons** | Material Design icons |
-
----
-
-## 🔧 **Setup and Installation**
-
-### 1️⃣ Clone the Repository
-```sh
-git clone https://github.com/your-repo/table-flow.git
-cd table-flow
+1️⃣ Clone the Repository
+sh
+Copy
+Edit
+git clone https://github.com/your-username/your-repo-name.git  
+cd your-repo-name  
 2️⃣ Install Dependencies
 sh
 Copy
 Edit
-npm install
+npm install  
 3️⃣ Start the Development Server
 sh
 Copy
 Edit
-npm run dev
-Open http://localhost:5173/ in your browser to see the app in action.
+npm run dev  
+The application will be available at: http://localhost:5173/ (default Vite port)
 
-📂 Project Structure
-csharp
-Copy
-Edit
-table-flow/
-│── node_modules/          # Dependencies
-│── public/                # Public assets
-│── src/                   # Source code
-│   ├── assets/            # Static assets (images, icons, etc.)
-│   ├── components/        # UI components
-│   │   ├── Table.jsx          # Main table component
-│   │   ├── TableFilters.jsx   # Table filtering interface
-│   ├── config/            # Configuration files
-│   │   ├── tableData.json     # Sample table data
-│   │   ├── tableSchema.json   # Table schema definition
-│   ├── hooks/             # Custom hooks
-│   │   ├── useDebounce.js     # Debounced search hook
-│   ├── App.css            # Global styles
-│   ├── App.jsx            # Main React component
-│   ├── index.css          # Main styles
-│   ├── main.jsx           # Entry point of the app
-│── .gitignore             # Git ignore file
-│── eslint.config.js       # ESLint configuration
-│── index.html             # Main HTML file
-│── package-lock.json      # Package lock file
-│── package.json           # Project dependencies
-│── README.md              # Documentation
-│── vite.config.js         # Vite configuration file
-📌 Contributing
-Contributions are welcome! If you'd like to contribute, please follow these steps:
-
-Fork the repository.
-Create a new branch.
-Make your changes and commit them.
-Submit a Pull Request for review.
