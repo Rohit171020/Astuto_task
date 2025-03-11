@@ -1,86 +1,75 @@
-# Project Name
+# 🚀 Table Management App  
 
-## Description
-A brief description of what your project does and its purpose.
+A **React + Vite-based Table Management App** that provides an interactive and efficient tabular data experience. Users can **filter, sort, and manage** data seamlessly using **Material UI** and **Material React Table**.  
 
-## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [Features](#features)
-- [Folder Structure](#folder-structure)
-- [Tech Stack](#tech-stack)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+---
 
-## Installation
-Step-by-step instructions on how to get the development environment running.
+## 📖 Table of Contents  
 
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/your-repo-name.git
+- [Installation](#installation)  
+- [Usage](#usage)  
+- [Features](#features)  
+- [Folder Structure](#folder-structure)  
+- [Tech Stack](#tech-stack)  
+- [Contributing](#contributing)  
+- [License](#license)  
+- [Contact](#contact)  
 
-# Navigate to the project directory
-cd your-repo-name
+---
 
-# Install dependencies
-npm install
-```
 
-## Usage
-Instructions and examples for using the project.
+📌 Tech Stack
+Technology	Description
+React + Vite	Fast frontend framework with Vite as a build tool
+Material UI (MUI)	UI component library for styling
+Material React Table	Advanced table management and rendering
 
-```bash
-# Run the application
-npm start
-```
+## 🛠 Installation  
 
-## Features
-- Feature 1
-- Feature 2
-- Feature 3
+Follow these steps to clone and set up the project locally.  
 
-## Folder Structure
-A brief description of the folder structure.
+### **1️⃣ Clone the Repository**  
 
-```
-your-repo-name/
-├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── styles/
-│   └── index.js
-├── public/
-│   ├── index.html
-│   └── favicon.ico
-├── package.json
-└── README.md
-```
+git clone https://github.com/your-username/your-repo-name.git  
+cd your-repo-name 
 
-## Tech Stack
-A list of technologies used in the project.
+2️⃣ Install Dependencies
+npm install  
 
-| Technology    | Description                           |
-|---------------|---------------------------------------|
-| React         | A JavaScript library for building user interfaces |
-| Node.js       | JavaScript runtime built on Chrome's V8 engine |
-| Express       | Fast, unopinionated, minimalist web framework for Node.js |
-| MongoDB       | NoSQL database for modern applications |
+3️⃣ Start the Development Server
+npm run dev  
 
-## Contributing
-Guidelines for contributing to the project.
+The application will be available at: http://localhost:5173/ (default Vite port).
 
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Make your changes.
-4. Commit your changes (`git commit -m 'Add some feature'`).
-5. Push to the branch (`git push origin feature-branch`).
-6. Open a pull request.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+🔥 Features
+✅ Fast Development with Vite - Instant HMR & optimized builds
+✅ Dynamic Tables - Sorting, filtering & pagination
+✅ Role-Based Filtering - View-specific table data
+✅ Debounced Search - Optimized search functionality
+✅ Custom Avatars & Badges - Better visualization
 
-## Contact
-Your Name - [your.email@example.com](mailto:your.email@example.com)
 
-Project Link: [https://github.com/yourusername/your-repo-name](https://github.com/yourusername/your-repo-name)
+📂 Folder Structure
+table-flow/
+│── node_modules/          # Dependencies
+│── public/                # Public assets
+│── src/                   # Source code
+│   ├── assets/            # Static assets (images, icons, etc.)
+│   ├── components/        # UI components
+│   │   ├── Table.jsx          # Main table component
+│   │   ├── TableFilters.jsx   # Table filtering component
+│   ├── config/            # Configuration files
+│   │   ├── tableData.json     # Sample table data
+│   │   ├── tableSchema.json   # Table schema definition
+│   ├── hooks/             # Custom hooks
+│   │   ├── useDebounce.js     # Debounced search hook
+│   ├── App.css            # Global styles
+│   ├── App.jsx            # Main React component
+│   ├── index.css          # Main styles
+│   ├── main.jsx           # Entry point of the app
+│── .gitignore             # Git ignore file
+│── package-lock.json      # Package lock file
+│── package.json           # Project dependencies
+│── README.md              # Documentation
+│── vite.config.js         # Vite configuration file
