@@ -34,14 +34,14 @@ npm install
 npm run dev  
 The application will be available at: http://localhost:5173/ (default Vite port).
 
-🔥 Features
+## Features
 ✅ Fast Development with Vite - Instant HMR & optimized builds
 ✅ Dynamic Tables - Sorting, filtering & pagination
 ✅ Role-Based Filtering - View-specific table data
 ✅ Debounced Search - Optimized search functionality
 ✅ Custom Avatars & Badges - Better visualization
 
-📂 Folder Structure
+## Folder Structure
 
 table-flow/
 │── node_modules/          # Dependencies  
@@ -66,14 +66,14 @@ table-flow/
 │── README.md              # Documentation  
 │── vite.config.js         # Vite configuration file  
 
-💡 Tech Stack
+## Tech Stack
 Technology	Description
 React + Vite	Fast frontend framework with Vite as a build tool
 Material UI (MUI)	UI component library for styling
 Material React Table	Advanced table management and rendering
 
 
-🤝 Contributing
+## Contributing
 Want to contribute? Follow these steps:
 
 Fork the repository
