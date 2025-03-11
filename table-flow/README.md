@@ -26,34 +26,23 @@ Follow these steps to clone and set up the project locally.
 git clone https://github.com/your-username/your-repo-name.git  
 cd your-repo-name  
 2️⃣ Install Dependencies
-sh
-Copy
-Edit
+
 npm install  
+
 3️⃣ Start the Development Server
-sh
-Copy
-Edit
+
 npm run dev  
 The application will be available at: http://localhost:5173/ (default Vite port).
 
-## 🔥 Features
-✅ Dynamic Tables - Sorting, filtering & pagination  
-✅ Role-Based Filtering - View-specific table data  
-✅ Debounced Search - Optimized search functionality  
-✅ Custom Avatars & Badges - Better visualization  
-✅ Dynamic Tables - Sorting, filtering & pagination  
-✅ Role-Based Filtering - View-specific table data  
-✅ Debounced Search - Optimized search functionality  
-✅ Custom Avatars & Badges - Better visualization  
+🔥 Features
+✅ Fast Development with Vite - Instant HMR & optimized builds
 ✅ Dynamic Tables - Sorting, filtering & pagination
 ✅ Role-Based Filtering - View-specific table data
 ✅ Debounced Search - Optimized search functionality
 ✅ Custom Avatars & Badges - Better visualization
+
 📂 Folder Structure
-perl
-Copy
-Edit
+
 table-flow/
 │── node_modules/          # Dependencies  
 │── public/                # Public assets  
@@ -76,11 +65,14 @@ table-flow/
 │── package.json           # Project dependencies  
 │── README.md              # Documentation  
 │── vite.config.js         # Vite configuration file  
+
 💡 Tech Stack
 Technology	Description
 React + Vite	Fast frontend framework with Vite as a build tool
 Material UI (MUI)	UI component library for styling
 Material React Table	Advanced table management and rendering
+
+
 🤝 Contributing
 Want to contribute? Follow these steps:
 
