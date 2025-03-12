@@ -8,11 +8,9 @@ import dataJson from "../config/tableData.json";
 const Table = () => {
   const [filters, setFilters] = useState({ name: "", roles: [] });
 
-  // Define columns while removing the extra "Avatar" column
   const columns = schema.columns
-  .filter((col) => col.accessorKey !== "image" && col.accessorKey !== "age") 
-  .map((col) => {
-
+    .filter((col) => col.accessorKey !== "image" && col.accessorKey !== "age")
+    .map((col) => {
       if (col.accessorKey === "name") {
         return {
           ...col,
@@ -64,14 +62,15 @@ const Table = () => {
       return col;
     });
 
-  // Filter data based on search inputs
   const filteredData = useMemo(() => {
-    return dataJson.data.filter((row) => {
+    const result = dataJson.data.filter((row) => {
       return (
         row.name.toLowerCase().includes(filters.name.toLowerCase()) &&
         (filters.roles.length === 0 || filters.roles.includes(row.role))
       );
     });
+    console.log("Filtered Data:", result);
+    return result;
   }, [filters]);
 
   return (
@@ -85,6 +84,7 @@ const Table = () => {
         enableColumnFilters
         enableRowSelection
         muiTableBodyRowProps={{ hover: true }}
+        onRowSelectionChange={(rows) => console.log("Selected Rows:", rows)}
       />
     </div>
   );

@@ -1,10 +1,15 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { TextField, MenuItem, Select, FormControl, InputLabel } from "@mui/material";
 import useDebounce from "../hooks/useDebounce";
 
 const TableFilters = ({ filters, setFilters, data }) => {
   const [search, setSearch] = useState("");
   const debouncedSearch = useDebounce(search, 500);
+
+  useEffect(() => {
+    console.log("Searching for:", debouncedSearch);
+    setFilters((prev) => ({ ...prev, name: debouncedSearch }));
+  }, [debouncedSearch, setFilters]);
 
   const roles = [...new Set(data.map((item) => item.role))];
 
@@ -16,14 +21,16 @@ const TableFilters = ({ filters, setFilters, data }) => {
         size="small"
         value={search}
         onChange={(e) => setSearch(e.target.value)}
-        onBlur={() => setFilters((prev) => ({ ...prev, name: debouncedSearch }))}
       />
       <FormControl size="small">
         <InputLabel>Role</InputLabel>
         <Select
           multiple
           value={filters.roles}
-          onChange={(e) => setFilters((prev) => ({ ...prev, roles: e.target.value }))}
+          onChange={(e) => {
+            console.log("Selected roles:", e.target.value);
+            setFilters((prev) => ({ ...prev, roles: e.target.value }));
+          }}
           renderValue={(selected) => selected.join(", ")}
         >
           {roles.map((role) => (
